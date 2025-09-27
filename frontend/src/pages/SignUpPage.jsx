@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { useAuthStore } from "../store/useAuthStore";
-import BorderAnimatedContainer from "../components/BorderAnimatedContainer";
+import { useAuthStore } from "../store/useAuthStore.js";
+import BorderAnimatedContainer from "../components/BorderAnimatedContainer.jsx";
 import { MessageCircleIcon, LockIcon, MailIcon, UserIcon, LoaderIcon } from "lucide-react";
 import { Link } from "react-router";
 
